@@ -1,1 +1,6 @@
-<p>about works!</p>
+<h2>Protected user list</h2>
+<button (click)="login()">Login</button>
+<button (click)="getProtectedUserList()">Load user list</button>
+<ul>
+    <li *ngFor="let user of users">{{user.username}}</li>
+</ul>

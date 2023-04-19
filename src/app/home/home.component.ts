@@ -18,7 +18,7 @@ export class HomeComponent {
         this.users = data
       console.log(this.users);
       }
-    
   )
   }
+
 }
