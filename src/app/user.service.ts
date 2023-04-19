@@ -11,7 +11,7 @@ export class User {
   providedIn: 'root'
 })
 export class UserService {
-  baseUrl: string = 'http://localhost:8000/api/'
+  baseUrl: string = 'http://pat.infolab.ecam.be:60844/api/'
 
   constructor( private http: HttpClient) { }
 
